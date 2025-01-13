@@ -34,7 +34,7 @@ jobs:
         id: binary
         uses: pozetroninc/github-action-get-latest-release@v0.8.0
         with:
-          repository: Michsior14/transmission-gluetun-port-update
+          repository: tomvanveen/transmission-gluetun-port-update
           excludes: prerelease, draft
           token: ${{ secrets.GITHUB_TOKEN }}
 
